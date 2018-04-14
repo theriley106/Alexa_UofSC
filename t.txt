@@ -1,0 +1,513 @@
+{
+                            "name": {
+                                "value": "accounting"
+                            }
+                        },{
+                            "name": {
+                                "value": "aerospace studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "african american studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "american sign language"
+                            }
+                        },{
+                            "name": {
+                                "value": "anthropology"
+                            }
+                        },{
+                            "name": {
+                                "value": "arabic"
+                            }
+                        },{
+                            "name": {
+                                "value": "art education"
+                            }
+                        },{
+                            "name": {
+                                "value": "art history"
+                            }
+                        },{
+                            "name": {
+                                "value": "art studio"
+                            }
+                        },{
+                            "name": {
+                                "value": "astronomy"
+                            }
+                        },{
+                            "name": {
+                                "value": "athletic training"
+                            }
+                        },{
+                            "name": {
+                                "value": "biological sciences"
+                            }
+                        },{
+                            "name": {
+                                "value": "biomedical engineering"
+                            }
+                        },{
+                            "name": {
+                                "value": "biostatistics"
+                            }
+                        },{
+                            "name": {
+                                "value": "business administration"
+                            }
+                        },{
+                            "name": {
+                                "value": "chemical engineering"
+                            }
+                        },{
+                            "name": {
+                                "value": "chemistry"
+                            }
+                        },{
+                            "name": {
+                                "value": "chinese"
+                            }
+                        },{
+                            "name": {
+                                "value": "civil engineering"
+                            }
+                        },{
+                            "name": {
+                                "value": "classical studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "communication disorders"
+                            }
+                        },{
+                            "name": {
+                                "value": "comparative literature"
+                            }
+                        },{
+                            "name": {
+                                "value": "computer science"
+                            }
+                        },{
+                            "name": {
+                                "value": "counselor education"
+                            }
+                        },{
+                            "name": {
+                                "value": "criminology and criminal justice"
+                            }
+                        },{
+                            "name": {
+                                "value": "curriculum studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "dance"
+                            }
+                        },{
+                            "name": {
+                                "value": "early childhood education"
+                            }
+                        },{
+                            "name": {
+                                "value": "economics"
+                            }
+                        },{
+                            "name": {
+                                "value": "education"
+                            }
+                        },{
+                            "name": {
+                                "value": "educational foundations and inquiry"
+                            }
+                        },{
+                            "name": {
+                                "value": "educational leadership"
+                            }
+                        },{
+                            "name": {
+                                "value": "educational psychology"
+                            }
+                        },{
+                            "name": {
+                                "value": "educational technology"
+                            }
+                        },{
+                            "name": {
+                                "value": "electrical engineering"
+                            }
+                        },{
+                            "name": {
+                                "value": "elementary education"
+                            }
+                        },{
+                            "name": {
+                                "value": "engineering"
+                            }
+                        },{
+                            "name": {
+                                "value": "english"
+                            }
+                        },{
+                            "name": {
+                                "value": "environmental health sciences"
+                            }
+                        },{
+                            "name": {
+                                "value": "environmental studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "epidemiology"
+                            }
+                        },{
+                            "name": {
+                                "value": "european studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "exercise science"
+                            }
+                        },{
+                            "name": {
+                                "value": "film and media studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "finance"
+                            }
+                        },{
+                            "name": {
+                                "value": "foreign languages"
+                            }
+                        },{
+                            "name": {
+                                "value": "french"
+                            }
+                        },{
+                            "name": {
+                                "value": "genetic counseling"
+                            }
+                        },{
+                            "name": {
+                                "value": "geography"
+                            }
+                        },{
+                            "name": {
+                                "value": "geological sciences"
+                            }
+                        },{
+                            "name": {
+                                "value": "german"
+                            }
+                        },{
+                            "name": {
+                                "value": "greek"
+                            }
+                        },{
+                            "name": {
+                                "value": "health promotion, education, and behavior"
+                            }
+                        },{
+                            "name": {
+                                "value": "health services policy and management"
+                            }
+                        },{
+                            "name": {
+                                "value": "hebrew"
+                            }
+                        },{
+                            "name": {
+                                "value": "higher education and student affairs"
+                            }
+                        },{
+                            "name": {
+                                "value": "history"
+                            }
+                        },{
+                            "name": {
+                                "value": "hospitality, sport, and retail management"
+                            }
+                        },{
+                            "name": {
+                                "value": "hotel, restaurant and tourism management"
+                            }
+                        },{
+                            "name": {
+                                "value": "instructor and teacher education"
+                            }
+                        },{
+                            "name": {
+                                "value": "integrated information technology"
+                            }
+                        },{
+                            "name": {
+                                "value": "interdisciplinary studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "international business"
+                            }
+                        },{
+                            "name": {
+                                "value": "italian"
+                            }
+                        },{
+                            "name": {
+                                "value": "japanese"
+                            }
+                        },{
+                            "name": {
+                                "value": "jewish studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "journalism"
+                            }
+                        },{
+                            "name": {
+                                "value": "korean"
+                            }
+                        },{
+                            "name": {
+                                "value": "language and literacy"
+                            }
+                        },{
+                            "name": {
+                                "value": "latin"
+                            }
+                        },{
+                            "name": {
+                                "value": "latin american studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "library and information science"
+                            }
+                        },{
+                            "name": {
+                                "value": "library science"
+                            }
+                        },{
+                            "name": {
+                                "value": "linguistics"
+                            }
+                        },{
+                            "name": {
+                                "value": "management"
+                            }
+                        },{
+                            "name": {
+                                "value": "management science"
+                            }
+                        },{
+                            "name": {
+                                "value": "marine science"
+                            }
+                        },{
+                            "name": {
+                                "value": "marketing"
+                            }
+                        },{
+                            "name": {
+                                "value": "mathematics"
+                            }
+                        },{
+                            "name": {
+                                "value": "mechanical engineering"
+                            }
+                        },{
+                            "name": {
+                                "value": "media arts"
+                            }
+                        },{
+                            "name": {
+                                "value": "middle level education"
+                            }
+                        },{
+                            "name": {
+                                "value": "military science"
+                            }
+                        },{
+                            "name": {
+                                "value": "music"
+                            }
+                        },{
+                            "name": {
+                                "value": "music (applied music)"
+                            }
+                        },{
+                            "name": {
+                                "value": "music (conducting)"
+                            }
+                        },{
+                            "name": {
+                                "value": "music (history and literature)"
+                            }
+                        },{
+                            "name": {
+                                "value": "music (miscellaneous)"
+                            }
+                        },{
+                            "name": {
+                                "value": "music (musical organizations)"
+                            }
+                        },{
+                            "name": {
+                                "value": "music (theory and composition)"
+                            }
+                        },{
+                            "name": {
+                                "value": "music education"
+                            }
+                        },{
+                            "name": {
+                                "value": "naval science"
+                            }
+                        },{
+                            "name": {
+                                "value": "nursing"
+                            }
+                        },{
+                            "name": {
+                                "value": "palmetto programs"
+                            }
+                        },{
+                            "name": {
+                                "value": "pharmacy"
+                            }
+                        },{
+                            "name": {
+                                "value": "philosophy"
+                            }
+                        },{
+                            "name": {
+                                "value": "physical education"
+                            }
+                        },{
+                            "name": {
+                                "value": "physics"
+                            }
+                        },{
+                            "name": {
+                                "value": "political science"
+                            }
+                        },{
+                            "name": {
+                                "value": "portuguese"
+                            }
+                        },{
+                            "name": {
+                                "value": "psychology"
+                            }
+                        },{
+                            "name": {
+                                "value": "public health"
+                            }
+                        },{
+                            "name": {
+                                "value": "palmetto college campuses"
+                            }
+                        },{
+                            "name": {
+                                "value": "religious studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "research and measurement in education"
+                            }
+                        },{
+                            "name": {
+                                "value": "retailing"
+                            }
+                        },{
+                            "name": {
+                                "value": "russian"
+                            }
+                        },{
+                            "name": {
+                                "value": "science and mathematics for educators"
+                            }
+                        },{
+                            "name": {
+                                "value": "science, technology, engineering, and mathematics"
+                            }
+                        },{
+                            "name": {
+                                "value": "secondary education"
+                            }
+                        },{
+                            "name": {
+                                "value": "social advocacy and ethical life"
+                            }
+                        },{
+                            "name": {
+                                "value": "social work"
+                            }
+                        },{
+                            "name": {
+                                "value": "sociology"
+                            }
+                        },{
+                            "name": {
+                                "value": "south carolina honors college"
+                            }
+                        },{
+                            "name": {
+                                "value": "southern studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "spanish"
+                            }
+                        },{
+                            "name": {
+                                "value": "special education"
+                            }
+                        },{
+                            "name": {
+                                "value": "special liberal arts"
+                            }
+                        },{
+                            "name": {
+                                "value": "speech"
+                            }
+                        },{
+                            "name": {
+                                "value": "sport and entertainment management"
+                            }
+                        },{
+                            "name": {
+                                "value": "statistics"
+                            }
+                        },{
+                            "name": {
+                                "value": "study abroad"
+                            }
+                        },{
+                            "name": {
+                                "value": "swahili"
+                            }
+                        },{
+                            "name": {
+                                "value": "theatre"
+                            }
+                        },{
+                            "name": {
+                                "value": "university"
+                            }
+                        },{
+                            "name": {
+                                "value": "women’s and gender studies"
+                            }
+                        },{
+                            "name": {
+                                "value": "global studies"
+                            }
+                        },{
+                            "name": {
+                                "value": ""
+                            }
+                        },

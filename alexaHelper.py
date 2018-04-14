@@ -13,7 +13,7 @@ def returnSpeech(speech, endSession=True):
 
 
 def devInfo():
-	text = "University of South Carolina"
+	text = "We are a team of developers participating in Colahacks at the University of South Carolina.  Go cocks!"
 	return returnSpeech(text)
 
 def get_welcome_response(skillName, initialSpeech, repeatSpeech):
