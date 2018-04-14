@@ -15,15 +15,17 @@ def lambda_handler(event, context):
 	appID = event['session']['application']['applicationId']
 	if event["request"]["type"] == "LaunchRequest":
 		#return alexaHelper.returnSpeech("Ayy this works.  This is where the you should have class info")
-		return test()
+		return colaHacksTemplate(INITIALSPEECH)
 	elif event["request"]["type"] == "IntentRequest":
-		return on_intent(event["request"], event["session"], '')
+		return on_intent(event["request"], event["session"])
 
-def on_intent(intent_request, session, author):
+def on_intent(intent_request, session):
 	intent = intent_request["intent"]
 	intent_name = intent_request["intent"]["name"]
 	if intent_name == 'searchClass':
 		return alexaHelper.returnSpeech(INITIALSPEECH)
+	elif intent_name == 'justNumber':
+		pass
 	elif intent_name == 'aboutDev':
 		return alexaHelper.devInfo()
 	elif intent_name == "AMAZON.HelpIntent":
@@ -33,7 +35,7 @@ def on_intent(intent_request, session, author):
 
 
 
-def test():
+def colaHacksTemplate(text):
 	return {
 			"version": "1.0",
 			"sessionAttributes": {},
@@ -62,7 +64,7 @@ def test():
 				}],
 				"outputSpeech": {
 					"type": "PlainText",
-					"text": INITIALSPEECH
+					"text": text
 				},
 				"shouldEndSession": False
 			}}
