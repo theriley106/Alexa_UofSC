@@ -8,27 +8,25 @@ import re
 #a = json.load(open('subjectInfo.json'))
 
 cookies = {
-    'SESSID': 'S1QyQlVGMjI3MDk5NQ==',
+    'SESSID': 'RFFTWDIwMjI3MDk5NQ==',
     'ROUTEID': '.BANAPP4',
     'accessibility': 'false',
     'IDMSESSID': 'A75188410',
     'sghe_magellan_username': 'QTc1MTg4NDEw',
     'sghe_magellan_locale': 'en_US',
-    'WEBPATH': '.PROXY2',
+    'WEBPATH': '.PROXY1',
 }
 
 headers = {
     'Pragma': 'no-cache',
-    'Origin': 'https://ssb.onecarolina.sc.edu',
     'Accept-Encoding': 'gzip, deflate, br',
     'Accept-Language': 'en-US,es-US;q=0.8,es;q=0.6,ru-BY;q=0.4,ru;q=0.2,en;q=0.2',
     'Upgrade-Insecure-Requests': '1',
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.113 Chrome/60.0.3112.113 Safari/537.36',
-    'Content-Type': 'application/x-www-form-urlencoded',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    'Cache-Control': 'no-cache',
-    'Referer': 'https://ssb.onecarolina.sc.edu/BANP/bwskfcls.p_sel_crse_search',
+    'Referer': 'https://ssb.onecarolina.sc.edu/BANP/twbkwbis.P_GenMenu?name=bmenu.P_MainMnu',
     'Connection': 'keep-alive',
+    'Cache-Control': 'no-cache',
 }
 
 
@@ -110,5 +108,6 @@ def searchCourses(subject="ACCT", crse='222'):
 		return None
 
 if __name__ == '__main__':
+	print searchCourses("PHIL", "103")
 	while True:
 		print grabCourse(raw_input("CRN: "))
