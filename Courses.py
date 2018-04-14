@@ -29,10 +29,10 @@ def grabCourse(crn, term='201808'):
 	return info
 
 def extractCampusName(labelInfo):
-	return "USC " + str(re.findall('\w+\sCampus', str(string))[0])
+	return "USC " + str(re.findall('\w+\sCampus', str(labelInfo))[0])
 
 def extractCourseHours(labelInfo):
-	return int(re.findall("(\d+)\S\d+\s+Credit", str(string))[0])
+	return int(re.findall("(\d+)\S\d+\s+Credit", str(labelInfo))[0])
 
 if __name__ == '__main__':
 	while True:
