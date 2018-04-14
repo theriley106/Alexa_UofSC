@@ -2,7 +2,8 @@ import alexaHelper
 import Courses
 
 SKILLNAME = ""
-INITIALSPEECH = ""
+INITIALSPEECH = '''Thanks for checking out the unofficial University of South Carolina
+Alexa Skill.  You can ask to track busses, view registration info, or even ask about nearby amenities'''
 REPEATSPEECH = ""
 
 def genCourseText(crn):
@@ -22,7 +23,7 @@ def on_intent(intent_request, session, author):
 	intent = intent_request["intent"]
 	intent_name = intent_request["intent"]["name"]
 	if intent_name == 'searchClass':
-		return alexaHelper.returnSpeech("Ayy this works.  This is where the you should have class info")
+		return alexaHelper.returnSpeech(INITIALSPEECH)
 	elif intent_name == 'aboutDev':
 		return alexaHelper.devInfo()
 	elif intent_name == "AMAZON.HelpIntent":
