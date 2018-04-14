@@ -9,7 +9,6 @@ def lambda_handler(event, context):
 	try:
 		appPerson = appInfo[appID]
 	except:
-		appInfo = updateAfterIntent.updateAppInfo()
 		appPerson = appInfo[appID]
 	if event["request"]["type"] == "LaunchRequest":
 		return alexaHelper.get_welcome_response(SKILLNAME.replace("$NAME", appPerson), INITIALSPEECH.replace("$NAME", appPerson), REPEATSPEECH)
