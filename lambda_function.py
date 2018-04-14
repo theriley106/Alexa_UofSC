@@ -33,7 +33,8 @@ def on_intent(intent_request, session):
 	elif intent_name == "AMAZON.CancelIntent" or intent_name == "AMAZON.StopIntent":
 		return alexaHelper.handle_session_end_request()
 
-
+def searchClasses():
+	colaHacksTemplate("What class type do you want to search for?")
 
 def colaHacksTemplate(text):
 	return {
