@@ -24,8 +24,8 @@ def on_intent(intent_request, session):
 	intent_name = intent_request["intent"]["name"]
 	if intent_name == 'searchClass':
 		return searchClasses()
-	elif intent_name == 'justNumber':
-		pass
+	elif intent_name == 'selectClass':
+		return colaHacksTemplate("We don't even have that class l o l")
 	elif intent_name == 'aboutDev':
 		return alexaHelper.devInfo()
 	elif intent_name == "AMAZON.HelpIntent":
