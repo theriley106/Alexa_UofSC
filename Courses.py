@@ -2,7 +2,7 @@ import requests
 import bs4
 import re
 
-a = json.load(open('subjectInfo.json'))
+#a = json.load(open('subjectInfo.json'))
 
 URL_FORMAT = "https://ssb.onecarolina.sc.edu/BANP/bwckschd.p_disp_detail_sched?term_in={0}&crn_in={1}"
 
@@ -34,13 +34,7 @@ def extractCampusName(labelInfo):
 def extractCourseHours(labelInfo):
 	return int(re.findall("(\d+)\S\d+\s+Credit", str(labelInfo))[0])
 
-def getCRN()
 
-class SearchCourse(object):
-	def __init__():
-		pass
-
-	print searchCourses()
 
 if __name__ == '__main__':
 	while True:
