@@ -37,10 +37,7 @@ def test():
 			"version": "1.0",
 			"sessionAttributes": {},
 			"response": {
-				"outputSpeech": {
-					"type": "PlainText",
-					"text": "Ayy this works this is our project for colahacks"
-				},
+
 				"directives": [{
 					"type": "Display.RenderTemplate",
 					"template": {
@@ -62,6 +59,10 @@ def test():
 						}
 					}
 				}],
+				"outputSpeech": {
+					"type": "PlainText",
+					"text": "Ayy this works this is our project for colahacks"
+				},
 				"shouldEndSession": False
 			}}
 
