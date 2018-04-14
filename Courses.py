@@ -34,6 +34,12 @@ def extractCampusName(labelInfo):
 def extractCourseHours(labelInfo):
 	return int(re.findall("(\d+)\S\d+\s+Credit", str(labelInfo))[0])
 
+def getCRN()
+
+class SearchCourse(object):
+	def __init__():
+		pass
+
 if __name__ == '__main__':
 	while True:
 		print grabCourse(raw_input("CRN: "))
