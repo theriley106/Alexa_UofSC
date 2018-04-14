@@ -62,7 +62,7 @@ def test():
 				}],
 				"outputSpeech": {
 					"type": "PlainText",
-					"text": "Ayy this works this is our project for colahacks"
+					"text": INITIALSPEECH
 				},
 				"shouldEndSession": False
 			}}
