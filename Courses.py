@@ -40,6 +40,8 @@ class SearchCourse(object):
 	def __init__():
 		pass
 
+	print searchCourses()
+
 if __name__ == '__main__':
 	while True:
 		print grabCourse(raw_input("CRN: "))
