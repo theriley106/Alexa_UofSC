@@ -1,5 +1,6 @@
 import requests
 import bs4
+import re
 
 
 
@@ -12,11 +13,15 @@ def grabCourse(crn, term='201808'):
 	res = requests.get(url)
 	page = bs4.BeautifulSoup(res.text, 'lxml')
 	listOfElems = page.select(".dddefault .dddefault")
+	labelInfo = page.select(".dddefault")[0]
 	info["Capacity"] = listOfElems[0].getText()
 	info["Actual"] = listOfElems[1].getText()
 	info["Remaining"] = listOfElems[2].getText()
+	info["Campus"] = extractCampusName(labelInfo)
 	return info
 
+def extractCampusName(labelInfo):
+	return "USC " + str(re.findall('\w+\sCampus', str(string))[0])
 
 if __name__ == '__main__':
 	while True:

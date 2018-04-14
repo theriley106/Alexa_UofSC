@@ -1,4 +1,5 @@
 import alexaHelper
+import Courses
 
 SKILLNAME = ""
 INITIALSPEECH = ""
