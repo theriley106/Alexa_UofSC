@@ -5,6 +5,11 @@ SKILLNAME = ""
 INITIALSPEECH = ""
 REPEATSPEECH = ""
 
+def genCourseText(crn):
+	courseInfo = Courses.grabCourse(crn)
+
+
+
 def lambda_handler(event, context):
 	appID = event['session']['application']['applicationId']
 	try:
@@ -12,7 +17,7 @@ def lambda_handler(event, context):
 	except:
 		appPerson = appInfo[appID]
 	if event["request"]["type"] == "LaunchRequest":
-		return alexaHelper.get_welcome_response(SKILLNAME.replace("$NAME", appPerson), INITIALSPEECH.replace("$NAME", appPerson), REPEATSPEECH)
+		return alexaHelper.returnSpeech("Ayy this works.  This is where the you should have class info")
 	elif event["request"]["type"] == "IntentRequest":
 		return on_intent(event["request"], event["session"], appPerson)
 
