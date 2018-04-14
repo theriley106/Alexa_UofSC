@@ -1,8 +1,8 @@
 import alexaHelper
 
-SKILLNAME = "$NAME Quotes"
-INITIALSPEECH = "Thanks for checking out $NAME Quotes!  You can ask me to read out a random quote by saying generate a new quote"
-REPEATSPEECH = "Start by asking, generate a new quote"
+SKILLNAME = ""
+INITIALSPEECH = ""
+REPEATSPEECH = ""
 
 def lambda_handler(event, context):
 	appID = event['session']['application']['applicationId']
@@ -19,10 +19,6 @@ def lambda_handler(event, context):
 def on_intent(intent_request, session, author):
 	intent = intent_request["intent"]
 	intent_name = intent_request["intent"]["name"]
-	if 'get' in str(intent_name) and 'Quote' in str(intent_name):
-		personName = str(' '.join(re.findall('[A-Z][^A-Z]*', str(intent_name).replace('get', '').replace('Quote', '')))).lower()
-		print personName
-		return alexaHelper.returnSpeech(quoteAPI.get_author_quotes(personName))
 	elif intent_name == 'aboutDev':
 		return alexaHelper.devInfo()
 	elif intent_name == "AMAZON.HelpIntent":
