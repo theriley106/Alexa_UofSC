@@ -15,9 +15,17 @@ def grabCourse(crn, term='201808'):
 	listOfElems = page.select(".dddefault .dddefault")
 	labelInfo = page.select(".dddefault")[0]
 	info["Capacity"] = listOfElems[0].getText()
+	# People registered
 	info["Actual"] = listOfElems[1].getText()
+	# Total spots available
 	info["Remaining"] = listOfElems[2].getText()
+	# Spots remaining
 	info["Campus"] = extractCampusName(labelInfo)
+	# This is the course location
+	info["Hours"] = extractCourseHours(labelInfo)
+	# This is the course hours
+	info["SpaceAvailable"] = (info["Remaining"] > 0)
+	# Boolean
 	return info
 
 def extractCampusName(labelInfo):
