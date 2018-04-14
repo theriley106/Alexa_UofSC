@@ -23,7 +23,7 @@ def on_intent(intent_request, session):
 	intent = intent_request["intent"]
 	intent_name = intent_request["intent"]["name"]
 	if intent_name == 'searchClass':
-		return alexaHelper.returnSpeech(INITIALSPEECH)
+		return searchClasses()
 	elif intent_name == 'justNumber':
 		pass
 	elif intent_name == 'aboutDev':
@@ -34,7 +34,7 @@ def on_intent(intent_request, session):
 		return alexaHelper.handle_session_end_request()
 
 def searchClasses():
-	colaHacksTemplate("What class type do you want to search for?")
+	return colaHacksTemplate("What class type do you want to search for?")
 
 def colaHacksTemplate(text):
 	return {
