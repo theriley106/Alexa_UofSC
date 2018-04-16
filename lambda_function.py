@@ -61,8 +61,10 @@ def on_intent(intent_request, session):
 				return colaHacksTemplate("Yaaaboy",str(courseInfo))
 		except:
 			e = getInfo("{}{}".format(sessionVal.type, sessionVal.num))
-			return colaHacksTemplate("{} {} session number 1 currently has {} seats available for enrollment".format(str(sessionVal.type), str(sessionVal.num), e['Remaining']), endSession=True)
-
+			if e != None:
+				return colaHacksTemplate("{} {} session number 1 currently has {} seats available for enrollment".format(str(sessionVal.type), str(sessionVal.num), e['Remaining']), endSession=True)
+			else:
+				return colaHacksTemplate("This class is currently in a closed enrollment phase")
 	elif intent_name == 'aboutDev':
 		return alexaHelper.devInfo()
 	elif intent_name == 'RestaurantRecommendations':
@@ -89,11 +91,7 @@ def getInfo(className):
 	for val in classInfo:
 		if val["Class"] == str(className):
 			return val
-	val = {"Remaining": randint(1, 30), "Class": className}
-	classInfo.append(val)
-	with open('/tmp/info.json', 'w') as outfile:
-		json.dump(classInfo, outfile)
-	return val
+	return None
 
 def colaHacksTemplate(text, displayText="Project for Cola Hacks", endSession=False):
 	return {
