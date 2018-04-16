@@ -1,0 +1,910 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "u. s. c.",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "searchClass",
+                    "slots": [],
+                    "samples": [
+                        "search for a course",
+                        "tell me about a course",
+                        "find a course",
+                        "find a class",
+                        "tell me about a class",
+                        "search for a class",
+                        "find course info",
+                        "find class info",
+                        "give me class info",
+                        "give me course info",
+                        "give class info",
+                        "give course info",
+                        "look up class info",
+                        "look up course info",
+                        "look up courses",
+                        "look up classes",
+                        "open class info",
+                        "search class info",
+                        "search course info",
+                        "open course info"
+                    ]
+                },
+                {
+                    "name": "CheckBus",
+                    "slots": [],
+                    "samples": [
+                        "look for the bus",
+                        "where is the bus near me",
+                        "bus near me",
+                        "bus nearby",
+                        "where is the bus",
+                        "check bus stops",
+                        "Check bus routes"
+                    ]
+                },
+                {
+                    "name": "NearbyRestaurants",
+                    "slots": [],
+                    "samples": [
+                        "search for nearby restaurants",
+                        "find nearby restaurants",
+                        "give me nearby restaurants",
+                        "show me nearby restaurants",
+                        "show me restaurants nearby",
+                        "show me a place to eat",
+                        "show me a place to eat nearby",
+                        "search for somewhere to eat",
+                        "find somewhere to eat",
+                        "show me places to eat nearby",
+                        "show me some restaurants nearby",
+                        "show me places to eat",
+                        "places to eat nearby",
+                        "search for restaurants near me",
+                        "search for restaurants nearby",
+                        "find restaurants nearby",
+                        "find restaurants near me",
+                        "where are restaurants near me",
+                        "where are restaurants nearby",
+                        "where are some restaurants nearby",
+                        "restaurants around here",
+                        "nearby restaurants",
+                        "places to eat in columbia",
+                        "restaurants to eat at",
+                        "places to eat ",
+                        "restaurants in columbia",
+                        "restaurants near me",
+                        "Restaurants nearby"
+                    ]
+                },
+                {
+                    "name": "Events",
+                    "slots": [],
+                    "samples": [
+                        "find events to go to",
+                        "search for events to go to",
+                        "find events",
+                        "search for events",
+                        "things to do soon",
+                        "events happening soon",
+                        "events going on now",
+                        "events happening now",
+                        "events coming up soon",
+                        "events coming up",
+                        "things to do",
+                        "what events are going on now",
+                        "events around me",
+                        "events nearby"
+                    ]
+                },
+                {
+                    "name": "CampusContacts",
+                    "slots": [],
+                    "samples": [
+                        "look up campus phone numbers",
+                        "find campus phone numbers",
+                        "search campus phone numbers",
+                        "campus phone numbers",
+                        "what are some campus contacts",
+                        "Give campus contacts",
+                        "campus contacts",
+                        "search campus contacts",
+                        "Find Campus Contacts",
+                        "Look up campus contacts"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "selectClass",
+                    "slots": [
+                        {
+                            "name": "class",
+                            "type": "Subject"
+                        }
+                    ],
+                    "samples": [
+                        "{class}"
+                    ]
+                },
+                {
+                    "name": "selectNum",
+                    "slots": [
+                        {
+                            "name": "courseNum",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{courseNum}"
+                    ]
+                },
+                {
+                    "name": "RestaurantRecommendations",
+                    "slots": [],
+                    "samples": [
+                        "what restaurant do you recommend near me",
+                        "what restaurant do you recommend nearby",
+                        "find a good place to eat at nearby",
+                        "find a good restaurant to eat at",
+                        "find a good place to eat",
+                        "give me a restaurant recommendation",
+                        "give me a recommendation for a restaurant",
+                        "where is a good place to eat",
+                        "where is a good restaurant to go to ",
+                        "show me good restaurants to go to",
+                        "show me good places to eat",
+                        "recommend restaurants nearby",
+                        "recommend restaurants near me"
+                    ]
+                },
+                {
+                    "name": "aboutDev",
+                    "slots": [],
+                    "samples": [
+                        "who created this skill",
+                        "who are the developers",
+                        "who are the develoepr",
+                        "tell me about",
+                        "who made this",
+                        "tell me about the developers",
+                        "tell me about the dev"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Subject",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "accounting"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aerospace studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "african american studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "american sign language"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "anthropology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arabic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "art education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "art history"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "art studio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "astronomy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "athletic training"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "biological sciences"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "biomedical engineering"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "biostatistics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "business administration"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chemical engineering"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chemistry"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chinese"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "civil engineering"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "classical studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "communication disorders"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "comparative literature"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "computer science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "counselor education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "criminology and criminal justice"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "curriculum studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dance"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "early childhood education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "economics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "educational foundations and inquiry"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "educational leadership"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "educational psychology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "educational technology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "electrical engineering"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "elementary education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "engineering"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "english"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "environmental health sciences"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "environmental studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "epidemiology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "european studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "exercise science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "film and media studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "finance"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "foreign languages"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "french"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "genetic counseling"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "geography"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "geological sciences"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "german"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "greek"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "health promotion, education, and behavior"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "health services policy and management"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hebrew"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "higher education and student affairs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "history"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hospitality, sport, and retail management"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hotel, restaurant and tourism management"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "instructor and teacher education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "integrated information technology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "interdisciplinary studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "international business"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "italian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "japanese"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jewish studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "journalism"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "korean"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "language and literacy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "latin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "latin american studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "library and information science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "library science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "linguistics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "management"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "management science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "marine science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "marketing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mathematics",
+                                "synonyms": [
+                                    "math"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mechanical engineering"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "media arts"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "middle level education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "military science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music (applied music)"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music (conducting)"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music (history and literature)"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music (miscellaneous)"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music (musical organizations)"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music (theory and composition)"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "naval science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nursing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "palmetto programs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pharmacy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "philosophy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "physical education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "physics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "political science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "portuguese"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "psychology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "public health"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "palmetto college campuses"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "religious studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "research and measurement in education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "retailing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "russian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "science and mathematics for educators"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "science, technology, engineering, and mathematics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "secondary education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "social advocacy and ethical life"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "social work"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sociology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "south carolina honors college"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "southern studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "spanish"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "special education"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "special liberal arts"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "speech"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sport and entertainment management"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "statistics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "study abroad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "swahili"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "theatre"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "university"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "women’s and gender studies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "global studies"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Course_Number",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "121"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "122"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "241"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Section_Number",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "002"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "001"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
